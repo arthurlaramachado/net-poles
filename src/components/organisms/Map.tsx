@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import './App.css';
+import './styles.css';
 
 interface LatLong {
   lat: number;
@@ -8,7 +8,7 @@ interface LatLong {
   alt?: number;
 }
 
-function App() {
+const App: React.FC = () => {
   const [center, setCenter] = useState<LatLong | undefined>(undefined);
   return (
     <MapContainer center={center} zoom={13} scrollWheelZoom={true}>
