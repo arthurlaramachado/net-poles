@@ -1,0 +1,88 @@
+{
+  "unidades": [
+    {
+      "codigo": "A01",
+      "latitude": "-27.57973",
+      "longitude": "-48.52450",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A02",
+      "latitude": "-27.58357",
+      "longitude": "-48.52252",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A03",
+      "latitude": "-27.58536",
+      "longitude": "-48.52145",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A04",
+      "latitude": "-27.58817",
+      "longitude": "-48.51832",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A05",
+      "latitude": "-27.59472",
+      "longitude": "-48.51519",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A06",
+      "latitude": "-27.59986",
+      "longitude": "-48.51653",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A07",
+      "latitude": "-27.59077",
+      "longitude": "-48.51164",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A08",
+      "latitude": "-27.58932",
+      "longitude": "-48.50853",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A09",
+      "latitude": "-27.58819",
+      "longitude": "-48.50598",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A10",
+      "latitude": "-27.58655",
+      "longitude": "-48.50266",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A11",
+      "latitude": "-27.58999",
+      "longitude": "-48.50601",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    },
+    {
+      "codigo": "A12",
+      "latitude": "-27.59141",
+      "longitude": "-48.50521",
+      "cidade": "Florianópolis",
+      "estado": "SC"
+    }
+  ]
+}
