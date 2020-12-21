@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import DefaultTemplate from '../../templates/DefaultTemplate';
 import Button from '../../atoms/Button/Button';
 import { MapContainer, TileLayer, Marker, Popup, Circle, MapConsumer } from 'react-leaflet';
@@ -8,8 +8,9 @@ import Modal from '../../organisms/Modal/Modal';
 import TextField from '../../atoms/TextField/TextField';
 import Geocode from "react-geocode";
 import { calcDistance } from '../../../helpers/helpers';
+import GEOCODE_KEY from '../../../constants';
 
-Geocode.setApiKey(/* GEOCODE KEY */);
+Geocode.setApiKey(GEOCODE_KEY);
 
 interface LatLong {
     lat: number;
@@ -47,7 +48,7 @@ const Homepage: React.FC = () => {
         Geocode.fromAddress(`${number} ${street} ${city} ${state} ${cep}`).then(
             response => {
                 const { lat, lng } = response.results[0].geometry.location;
-
+                // eslint-disable-next-line
                 const newAvailablePoints = poles.filter(pole => {
                     const distance = calcDistance(Number(pole.latitude), Number(pole.longitude), lat, lng, 'K');
                     if (distance <= 0.150) return pole;
