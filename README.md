@@ -15,4 +15,7 @@ Used to transform a string containing a place's address into coordinates of this
 This is goint to be used in order to simplify interactions with Google Geocode's API.
 
 ## `Typescript`: 
-We are using Typescript because it can make the code scalable and also helps to avoid bugs as well as keep the code clean.
+We are using Typescript because it can make the code scalable and also helps to avoid bugs as well as keep the code clean;
+
+## `Atomic Design`: 
+Atomic design is a project pattern. The idea is to organize better the components and improve scalability.
